@@ -19,31 +19,9 @@ let sentence9 = 'little run here so because like move become thing these house h
 
 let sentence10 = 'be head most come or then other that how govern be must just child much mean year system plan good through other only if not great nation fact world if order seem no again into number too turn off they turn system few just and great use without house increase eye too one only course know end early as thing in present which increase man day use what during these those move possible ask up too head so all during program however only real consider should because before have play be very give tell she hand show fact just end';
 
-// let sentence11 = [];
-// let sentence12 = [];
+
 
 const arraySentence = [sentence, sentence2, sentence3, sentence4, sentence6, sentence7, sentence8, sentence9, sentence10];
-
-// function getMultipleRandom(arr, length) {
-// 	const shuffled = arr.split(' ').sort(() => 0.5 - Math.random());
-// 	return shuffled.slice(0, length);
-// }
-
-// sentence11 = getMultipleRandom(sentence9, sentence.length);
-// sentence12 = getMultipleRandom(sentence10, sentence.length);
-
-// console.log(sentence11, sentence12);
-
-
-
-// function shortSentence(arr, length) {
-// 	let short = arr.map(word => {
-// 		return word.split(' ').slice(0, length);
-// 	});
-// 	return short;
-// }
-
-
 
 
 function changeTimeFunc(element, cls) {
@@ -111,17 +89,6 @@ setInterval(() => {
 
 
 
-// Helper Function
-// function generatePass(passwordArr, length) {
-// 	let arrOfTwo = [];
-// 	let getArr = passwordArr.split('');
-// 	getArr.forEach(() => {
-// 		if(arrOfTwo.length < length) {
-// 			arrOfTwo.push(getArr[Math.floor(Math.random() * passwordArr.length)]);
-// 		}
-// 	});
-// 	return arrOfTwo;
-// }
 
 
 
@@ -130,96 +97,3 @@ setInterval(() => {
 
 
 
-
-
-
-
-
-// function randomInt(min, max) {
-// 	return Math.floor(Math.random() * (max - min + 1) + min);
-// }
-
-// function randomColor() {
-// 	return `rgb(${randomInt(0,255)},${randomInt(0,255)},${randomInt(0,255)})`;
-// }
-
-// console.log(randomColor());
-
-
-// function startTimer() {
-// 	clearInterval(id);
-// 	  second;
-// 	  minute;
-// 	  timerEl.style.visibility = 'visible';
-	
-	 
-// 	  id = setInterval(function () {
-		
-// 		timerEl.innerHTML =
-// 		  (minute < 10 ? "0" + minute : minute) +
-// 		  ":" +
-// 		  (second < 10 ? "0" + second : second);
-  
-// 		if (second == 0) {
-
-// 		  if (minute === 0) {
-// 			// Full done
-// 			clearInterval(id);
-// 			showResult();
-// 			typing = false;
-// 			console.log('Time is over');
-// 		  }
-// 		  minute--;
-// 		  second = 60;
-// 		}
-// 		second--;
-// 	  }, 1000);
-//   };
-
-
-
-
-
-
-
-//HELPER FUNCTIONS
-// function shortSentence(arr, length) {
-// 	let short = arr.map(word => {
-// 		return word.split(' ').slice(0, length);
-// 	});
-// 	return short;
-// }
-
-// let sentenceOf10 = shortSentence(arrOfSentence, 10);
-// let sentenceOf30 = shortSentence(arrOfSentence, 30);
-// let sentenceOf50 = shortSentence(arrOfSentence, 50);
-// let sentenceOf100 = shortSentence(arrOfSentence, 100);
-// console.log(sentenceOf10);
-
-
-// function randomBackground() {
-// 	let hexColor = Math.floor(Math.random()*16777215).toString(16);
-// 	document.body.style.backgroundColor = `#${hexColor}`;
-// }
-
-
-
-// THIS IS OLD TIMER FUNCTION WITHOUT ZERO's
-// Timer Function Start Typing and When counter is 0 we Stop Typing
- // TIMER ID FOR CLEARINTERVAL
-// function timer(num = 60) {
-// 	let i = 0;
-// 	timerEl.style.visibility = 'visible';
-
-// 	id = setInterval(() => {
-// 		if(i < num) {
-// 			timerEl.textContent = --num;
-// 		} else {
-//             clearInterval(id);
-// 			typing = false;
-// 			// When timer is stoping Show the Result of Typing
-// 			showResult();
-// 		}
-// 	}, 1000);
-// }
-// TIMER END ///////////////////
