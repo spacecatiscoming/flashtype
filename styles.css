@@ -11,8 +11,9 @@ body {
 	background-color: #323437;
 }
 .main {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
+	margin-top: .5rem;
 }
 
 .small-title {
@@ -42,14 +43,11 @@ body {
 	cursor: pointer;
 }
 .container {
-	outline: 10px solid #fff;
 	position: relative;
-	z-index: 100;
-	margin-top: 1rem;
 	padding: 1rem;
 	max-width: 1250px;
 	/* min-height: 100vh; */
-	/* margin: auto; */
+	margin: auto;
 }
 
 .logic-container {

@@ -45,7 +45,6 @@ function changeTimeFunc(element, cls) {
 		clicked.classList.add('active');
 	
 		e.stopPropagation();
-		console.log(countTimer);
 	});
 }
 
@@ -64,8 +63,6 @@ function changeWordLength(element, cls) {
 		displaySentence(randomSentence(arrOfSentence), countWords);
 		span = Array.from(document.querySelectorAll('.char'));
 	    maxChars = span.length;
-	    console.log(span);
-	    console.log(maxChars);
 
 		e.stopPropagation();
 	});
