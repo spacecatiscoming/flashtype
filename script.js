@@ -207,7 +207,6 @@ function initFunc(color) {
 
 		  // LENGTH OF WORDS
 		  resultArr = lettersArr.join('').split(' ');
-		  
 		  compareResults();
 		}
 	});
