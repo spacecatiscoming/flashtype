@@ -167,7 +167,7 @@ function timer(num = 60) {
 // 			clearInterval(id);
 // 			showResult();
 // 			typing = false;
-// 			console.log('Time is over');
+//
 // 		  }
 // 		  minute--;
 // 		  second = 60;
@@ -187,7 +187,6 @@ function compareResults() {
 	   showResult();
 	 } else {
 	   getValues();
-	   console.log(`${Math.trunc(percent)}%`);
     }
 }
 
@@ -265,13 +264,13 @@ function showResult() {
 	percentEl.textContent = `${Math.trunc(percent)}%`;
 	resultContainer.style.opacity = 1;
 	if(percent < 20) {
-		resultMsg('You type like an Old man');
+		resultMsg('You type like an Old man.');
 	} else if(percent < 30) {
-		resultMsg('My grandmother can do it faster');
+		resultMsg('My grandmother can do it faster.');
 	} else if(percent < 40) {
-		resultMsg(`The Keyboard did't even understand whether you're typing or ironing it`)
+		resultMsg(`show my grandmother what you can do.`)
 	} else if(percent < 50) {
-		resultMsg(`Have you seen cats typing on the Keyboard? Do it like Cats`);
+		resultMsg(`Have you seen cats typing on the Keyboard? Do it like Cats.`);
 	} else if(percent < 60) {
 		resultMsg(`Now be brave and don't look back. Don't look back.`);
 	} else if(percent < 70) {
@@ -307,13 +306,11 @@ selectMenu.addEventListener('change', function(e) {
 	e.preventDefault();
 
 	selectMenu.blur();
-	console.log(selectMenu.value);
 	if(selectMenu.value === 'color') {
 		changeTheme(colors[12]); //Custom Color
 	}
 
 	if(selectMenu.value === '#0058a3') {
-		console.log('The page Bacground is changed to Sweden');
 		span.forEach((item) => {
 			item.style.color = '#fff';
 		});
