@@ -24,15 +24,11 @@ body {
 	margin: 1rem;
 	transition: all 1s;
 }
-.main {
-	/* display: flex;
-	justify-content: center; */
-	margin-top: .5rem;
-}
+
 
 .small-title {
 	color: #fff;
-	margin-left: 2.3rem;
+	/* margin-left: 2.3rem; */
 }
 
 #cursor {
@@ -58,14 +54,14 @@ body {
 	max-width: 300px;
 }
 .container {
-	/* display: flex;
+	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly; */
+	justify-content: space-around;
 	position: relative;
-	margin-top: 1rem;
-	padding: 1rem;
+	/* margin-top: 1rem; */
+	/* padding: 1rem; */
 	max-width: 1250px;
-	/* min-height: 100vh; */
+	min-height: 100vh;
 	margin: auto;
 	/* border: 1px solid #fff; */
 }
@@ -73,7 +69,7 @@ body {
 .logic-container {
 	margin: 1rem;
 	padding: 1rem;
-	min-height: 78vh;
+	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 	/* justify-content: space-around; */
