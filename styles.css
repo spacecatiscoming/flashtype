@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	font-size: 16px;
 	position: relative;
@@ -11,7 +15,7 @@ body {
 	/* background-color: #323437; */
 	background-color: #011926;
 	transition: all 1s;
-	/* min-height: 100vh; */
+	min-height: 100vh;
 }
 
 .day-n-night {
@@ -28,7 +32,7 @@ body {
 
 .small-title {
 	color: #fff;
-	/* margin-left: 2.3rem; */
+	margin-left: 2.3rem;
 }
 
 #cursor {
@@ -41,7 +45,8 @@ body {
 	position: absolute;
 	font-weight: 900;
 	font-size: 3.2rem;
-	left: 3.7%;
+	left: 2.7%;
+	top: 5rem;
 	margin-top: 3rem;
 	opacity: 0;
 	transition: opacity .5s;
@@ -54,14 +59,14 @@ body {
 	max-width: 300px;
 }
 .container {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-evenly; */
 	position: relative;
-	/* margin-top: 1rem; */
+	margin-top: 1rem;
 	/* padding: 1rem; */
 	max-width: 1250px;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	margin: auto;
 	/* border: 1px solid #fff; */
 }
@@ -69,7 +74,7 @@ body {
 .logic-container {
 	margin: 1rem;
 	padding: 1rem;
-	min-height: 100%;
+	min-height: 75vh;
 	display: flex;
 	flex-direction: column;
 	/* justify-content: space-around; */
